@@ -26,9 +26,8 @@ export const Input = () => {
                 }}>
                     <div>
                         <textarea
-                        onChange= {e => {
-                            makeSetValue(setValue)(e);
-                        }}
+                        onChange= {makeSetValue(setValue)}
+                        value={value}
                         />
                     <div>
                         <button type="submit">Send</button>

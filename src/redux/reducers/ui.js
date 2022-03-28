@@ -14,7 +14,7 @@ const uiReducer = (state = initialState, action) => {
                 ...state,
                 member: {
                     ...state.member,
-                    isTypeing: false
+                    isTyping: false
                 }
             }
         }
